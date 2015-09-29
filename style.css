@@ -3,12 +3,15 @@
 }
 
 body {
-  	font-family: fantasy;
-    font: prince valiant;
-  	line-height: 1.3;
-  /*  background-image: url("images/wildewoodes2.jpg");*/
+  	font-family: 'Dancing Script', 'Cedarville Cursive', cursive;
+  	line-height: 1;
+    font-size: 24px;
+    background-color: #f1e8ca;
+    text-align: center;
+    width: 90%;
+  /*  background-image: url("images/wildewoodes2.jpg");
     background-size: 105% 120%;
-    background-attachment: fixed;
+    background-attachment: fixed;*/
 }
 
 
@@ -16,80 +19,54 @@ a{
   text-decoration: none;
 }
 
-section {
-  width:80%;
-  padding-left: 20px;
+header{
+/*  border-bottom: 1px solid #e7e6e6;
+  padding-top: 14px;
+  height: 70px;*/
+}
+.title{
+  color: #4CA64C;
+  padding:0;
+  margin: 0;
+}
+.topbar img{
+height: 150px;
+padding: 0;
+margin: 0;
 }
 
-.redbanner {
-  margin-left: 10px;
+.mainbar{
+  line-height: 1.3;
+  width:75%;
+  padding-left: 150px;
+  align-items: center;
+
+}
+.sidebar{
+  width: 25%;
+  min-width: 300px;
+  max-width: 320px;
+
+  border: 0px solid black;
+  margin-top: 0;
+  margin-left: 90px;
+  float:right;
 }
 
-.nationsite{
-  background-color: #d50000;
-  color: black;
-  font-size: 15px;
-  padding: 5px;
+#slideshow {
   display:inline-block;
-  border-radius: 5px;
-}
-
-.nationsite a:hover{
-font-size: 16px;
-
-}
-
-.navigation{
-  display: inline-block;
-  align-self: center;
-  list-style: none;
-  line-height: 3;
-  background-color: white;
-  }
-
-.navigation li{
-  display: inline-block;
+  margin: 50px auto;
+  position: relative;
+  width: 60%;
+  height: 240px;
   padding: 10px;
-  margin: 0 10px;
-  font-size: 20px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.4);
 }
 
-.navigation a{
-  color: black;
-}
-
-.navigation a:hover{
-  color: blue;
-}
-
-.imgtext{
-  background: #d50000;
-  color: white;
-  width: 100%;
-  text-align: left;
-  padding 10px;
-  /*margin: 40px 40px;*/
-}
-
-
-.joinus{
-  text-align: center;
-}
-.joinus a{
-  color: white;
-}
-
-.joinus a:hover{
-  color: blue;
-}
-
-.start-of-line {
-  float: right;
-}
-
-.start-of-line img{
-  width: 95px;
-}
-.mainsection{
-  display:inline-block;
+#slideshow > div {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
 }
